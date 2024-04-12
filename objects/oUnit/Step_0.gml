@@ -5,10 +5,18 @@ if (array_length(actionList) != 0)
 	if (actionNum == -1) {
 		actionNum = 0;
 		actionType = actionList[actionNum, 0];
-		if (actionType = "Look") {
+		if (actionType == "Look") {
 			desiredDir = point_direction(x, y, actionList[actionNum, 1], actionList[actionNum, 2]);
 			alarm[0] = turnRate;
 		}
+		if (actionType == "Go") {
+			goX = actionList[actionNum, 1];
+			goY = actionList[actionNum, 2];
+			
+			
+			
+		}
+		
 	}		
 }
 

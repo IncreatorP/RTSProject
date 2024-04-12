@@ -13,10 +13,11 @@ if (array_length(selectedUnits) > 0)
 	var s = 14;
 	for (var i=0; i < array_length(selectedUnits); i++)
 	{		
-		draw_text(0, s, "A-list:" + string(selectedUnits[i].actionList));
-		draw_text(0, s+14, "A-num:" + string(selectedUnits[i].actionNum));
-		draw_text(0, s+28, "A-type:" + string(selectedUnits[i].actionType));
-		s += 3*14;
+		draw_text(0, s, "-------------------");
+		draw_text(0, s+14, "A-list:" + string(selectedUnits[i].actionList));
+		draw_text(0, s+28, "A-num:" + string(selectedUnits[i].actionNum));
+		draw_text(0, s+42, "A-type:" + string(selectedUnits[i].actionType));
+		s += 4*14;
 
 	}
 }
