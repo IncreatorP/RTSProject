@@ -13,8 +13,7 @@ if (array_length(actionList) != 0)
 			goX = actionList[actionNum, 1];
 			goY = actionList[actionNum, 2];
 			
-			
-			
+						
 		}
 		
 	}		
